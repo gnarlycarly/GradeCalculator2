@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="container">
+
+<h1>Grade Calculator</h1>
+
+
+<div class="table">
+    <table class="table" id="table" border="5">
+        <tr>
+            <td>Homework Grades<br><input type="text" value="80,90" id="homework"></td>
+            <td>Weight<br><input type="text" value="15" id="homeworkWeight"></td>
+        </tr>
+        <tr>
+            <td>Classwork Grades<br><input type="text" value="80,90" id= "classwork"> </td>
+            <td>Weight<br><input type="text" value="15" id="classworkWeight"></td>
+        </tr>
+        <tr>
+            <td>Test Grades<br><input type="text"value="80,90"id="tests"></td>
+            <td>Weight<br><input type="text"value="15" id="testsWeight"></td>
+        </tr>
+        <tr>
+            <td>Participation Grades<br><input type="text"value="80,90"id="participation"></td>
+            <td>Weight<br><input type="text" value="15" id="participationWeight"></td>
+        </tr>
+        <tr>
+            <td>Project Grades<br><input type="text"value="80,90"id="projects"></td>
+            <td>Weight<br><input type="text" value="15" id="projectsWeight"></td>
+        </tr>
+
+
+    </table>
+</div>
+
+<button onclick="CalculateCurrentGrade()" class="btn btn-default">Calculate</button>
+
+<div id="grade"> </div>
+
+<div class="table2" id="table2">
+    <table border="5">
+        <tr>
+            <td class="textFinal">Grade you want in the class<br><input type="text" value="100" id="dreamGrade"</td>
+            <td class="textFinal">Final weight<br><input type="text" value="25" id="weightofFinal"</td>
+        </tr>
+    </table>
+</div>
+
+<button id="finalCalc" onclick="gradeForFinal()" class="btn btn-default">Find Grade I Need on Final</button>
+
+<div id="gradeRequired"></div>
+
+<div>Made by yours truly,</div>
+<div>Carly Wright</div>
+<div>Good luck on you final!</div>
+</div>
+
+</body>
+</html>

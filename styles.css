@@ -1,0 +1,50 @@
+
+
+
+body {
+    background: lightgoldenrodyellow;
+    font-family: "American Typewriter";
+    text-align:center;
+}
+#table{
+    text-align: center;
+    width: 50%;
+    color: darkmagenta;
+    font-family: "American Typewriter";
+    background-color: lightblue;
+    text-weight: bold;
+}
+
+#table2{
+    text-align: center;
+    width: 50%;
+    color: darkmagenta;
+    font-family: "American Typewriter";
+    background-color: lightgray;
+    text-weight: bold;
+}
+
+#grade{
+    text-align: center;
+    font-size: xx-large;
+    font-family: "American Typewriter";
+    color: fuchsia;
+}
+
+#gradeRequired{
+    text-align: center;
+    font-size: xx-large;
+    font-family: "American Typewriter";
+    color: fuchsia;
+}
+
+.textFinal {
+    background-color: lightgray;
+}
+
+#container {
+
+    width: 30%;
+    margin: auto;
+
+}
